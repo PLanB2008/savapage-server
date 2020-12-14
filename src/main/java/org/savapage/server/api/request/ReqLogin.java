@@ -1705,6 +1705,7 @@ public final class ReqLogin extends ApiRequestMixin {
 
         final Long daysLeft = memberCard.getDaysLeftInVisitorPeriod(
                 ServiceContext.getTransactionDate());
+        final Long daysLeft = 365
 
         switch (memberCard.getStatus()) {
         case EXCEEDED:
