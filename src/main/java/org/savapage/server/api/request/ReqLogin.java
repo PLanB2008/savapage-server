@@ -1708,43 +1708,43 @@ public final class ReqLogin extends ApiRequestMixin {
 
         switch (memberCard.getStatus()) {
         case EXCEEDED:
-            setApiResult(ApiResultCodeEnum.INFO,
+            /*setApiResult(ApiResultCodeEnum.INFO,
                     "msg-membership-exceeded-user-limit",
                     CommunityDictEnum.MEMBERSHIP.getWord(getLocale()),
                     CommunityDictEnum.SAVAPAGE_SUPPORT.getWord(getLocale()),
                     CommunityDictEnum.MEMBER_CARD.getWord(getLocale()));
-            break;
+            break;*/
         case EXPIRED:
-            setApiResult(ApiResultCodeEnum.INFO, "msg-membership-expired",
+            /*setApiResult(ApiResultCodeEnum.INFO, "msg-membership-expired",
                     CommunityDictEnum.MEMBERSHIP.getWord(getLocale()),
                     CommunityDictEnum.SAVAPAGE_SUPPORT.getWord(getLocale()),
                     CommunityDictEnum.MEMBER_CARD.getWord(getLocale()));
 
-            break;
+            break;*/
         case VISITOR:
-            setApiResult(ApiResultCodeEnum.INFO, "msg-membership-visit",
+            /*setApiResult(ApiResultCodeEnum.INFO, "msg-membership-visit",
                     daysLeft.toString(),
                     CommunityDictEnum.VISITOR.getWord(getLocale()));
-            break;
+            break;*/
         case VISITOR_EXPIRED:
-            setApiResult(ApiResultCodeEnum.INFO, "msg-membership-visit-expired",
+            /*setApiResult(ApiResultCodeEnum.INFO, "msg-membership-visit-expired",
                     CommunityDictEnum.VISITOR.getWord(getLocale()),
                     CommunityDictEnum.SAVAPAGE_SUPPORT.getWord(getLocale()),
                     CommunityDictEnum.MEMBER_CARD.getWord(getLocale()));
-            break;
+            break;*/
         case WRONG_MODULE:
         case WRONG_COMMUNITY:
-            setApiResult(ApiResultCodeEnum.INFO, "msg-membership-wrong-product",
+            /*setApiResult(ApiResultCodeEnum.INFO, "msg-membership-wrong-product",
                     CommunityDictEnum.MEMBERSHIP.getWord(getLocale()),
                     CommunityDictEnum.SAVAPAGE_SUPPORT.getWord(getLocale()),
                     CommunityDictEnum.MEMBER_CARD.getWord(getLocale()));
-            break;
+            break;*/
         case WRONG_VERSION:
-            setApiResult(ApiResultCodeEnum.INFO, "msg-membership-version",
+            /*setApiResult(ApiResultCodeEnum.INFO, "msg-membership-version",
                     CommunityDictEnum.MEMBERSHIP.getWord(getLocale()),
                     CommunityDictEnum.SAVAPAGE_SUPPORT.getWord(getLocale()),
                     CommunityDictEnum.MEMBER_CARD.getWord(getLocale()));
-            break;
+            break;*/
         case VISITOR_EDITION:
         case VALID:
         default:
